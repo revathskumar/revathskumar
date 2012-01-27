@@ -1,0 +1,158 @@
+/* 
+    Document   : rsk
+    Created on : Nov 7, 2010, 9:10:01 PM
+    Author     : Draconianz
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+ h1,h2,h3,h4,h5,h6{
+            margin: 0;
+}
+        body{
+text-align: center;
+min-height:600px;
+}
+a{
+    text-decoration: none;
+    border: 0;
+}
+img{
+    border: 0px;
+}
+#site-content{
+    width: 830px;
+    margin: 0 auto;
+    text-align: left;
+    min-height: 575px;
+    /*display: table;*/
+    /*vertical-align: middle;*/
+    /*;: 1px solid black;*/
+}
+#top{
+    background: url(../img/bg-top.jpg) no-repeat;
+    height: 23px;
+}
+#middle{
+    background: url(../img/bg-middle.jpg) repeat-y;
+    min-height: 581px;
+    height: 581px;
+    padding: 0 50px;
+    text-align: center;
+    clear: both;
+    /*display: table-cell;*/
+    vertical-align: middle;
+}
+#bottom{
+    background: url(../img/bg-bottom.jpg) no-repeat;
+    height: 51px
+}
+#header{
+    background: url(../img/logo.jpeg) no-repeat;
+    text-align: right;
+    height: 145px;
+    
+}
+h1{
+ /*font-family: 'BrushScriptStd', arial, serif;*/
+ font-family: 'Concert One', cursive;
+}
+#header h1{
+ /*font-family: 'Lobster', arial, serif;*/
+ /*font-family: 'Reenie Beanie', arial, serif;*/
+
+  text-shadow: 4px 4px 4px #bbb;
+ margin: 0;
+}
+#header h2{
+ font-family: 'Tangerine', arial, serif;
+  /*font-weight: 900;*/
+  text-shadow: 2px 2px 2px #bbb;
+}
+#uclogo{
+     background: url(../img/uclogo.jpg) no-repeat ;
+     height: 176px;
+     margin: 0 auto;
+     width: 205px;
+}
+#content{
+
+}
+#content h1{
+    text-align: center
+}
+.description{
+    list-style: none;
+    clear: both;
+    margin: 0 auto;
+    
+}
+.description li{
+    font-family: 'Emblema One', cursive;
+    text-align: left;
+}
+.networks{
+    list-style: none;
+   padding-top: 20px;
+    clear: both;
+    margin: 0;
+}
+.networks li{
+    display: inline;
+    float: left;
+    margin-right: 10px;
+}
+.networks a{
+    display:block;
+
+    padding: 80px 0 0 0;
+    width: 80px;
+}
+.networks li:hover{
+    -moz-box-shadow: 0px 10px 15px #818181;
+    -webkit-box-shadow: 0px 10px 15px #818181;
+    FILTER: Shadow(Color=#818181, OffX=0, OffY=10, Positive=15)
+}
+.fb{
+    background: url(../img/logo/fb.jpg) no-repeat;
+}
+.twitter{
+    background: url(../img/logo/twitter.jpg) no-repeat;
+}
+.in{
+ background: url(../img/logo/in.jpg) no-repeat;
+}
+.orkut{
+    background: url(../img/logo/orkut.jpg) no-repeat;
+}
+.sp{
+    background: url(../img/logo/stubleupon.jpg) no-repeat;
+}
+.digg{
+    background: url(../img/logo/digg.jpg) no-repeat;
+}
+.bz{
+    background: url(../img/logo/googlebuzz.jpg) no-repeat;
+}
+.blog{
+    background: url(../img/logo/blogger.jpg) no-repeat;
+}
+.gp{
+    background: url(../img/logo/googleprofile.jpg) no-repeat;
+}
+.gb{
+    background: url(../img/logo/googlebookmarks.jpg) no-repeat;
+}
+.del{
+    background: url(../img/logo/delicious.jpg) no-repeat;
+}
+#arrow{
+    background: url(../img/arrow.jpg) no-repeat;
+    height: 142px;
+    float: right;
+    position: absolute;
+}
